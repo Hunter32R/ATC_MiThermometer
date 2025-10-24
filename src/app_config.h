@@ -8,7 +8,7 @@ extern "C" {
 
 #define VERSION 0x54	 // BCD format (0x34 -> '3.4')
 #define EEP_SUP_VER 0x09 // EEP data minimum supported version
-
+#define DEVICE_TYPE DEVICE_TB03F
 // DevID:
 #ifndef DEVICE_CGG1_ver
 #define DEVICE_CGG1_ver		0 // =2022 - CGG1-M version 2022, or = 0 - CGG1-M version 2020,2021
