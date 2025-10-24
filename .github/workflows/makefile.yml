@@ -38,10 +38,7 @@ jobs:
 
       - name: Build all firmwares
         run: |
-          make -f makefile PROJECT_NAME=ATC_Thermometer
-          make -f makefile PROJECT_NAME=ZBEACON_TH01
-          make -f makefile PROJECT_NAME=TB03F
-
+          make all
       - name: List output files
         run: |
           find out zigbee_ota -type f -maxdepth 2 -printf "%P\n" || true
