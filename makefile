@@ -4,7 +4,7 @@ LIBS := -llt_8258
 
 TEL_PATH ?= ./SDK
 
-PROJECT_NAME ?= ATC_Thermometer
+PROJECT_NAME ?= TB03F
 
 PROJECT_PATH := ./src
 OUT_PATH :=./out
