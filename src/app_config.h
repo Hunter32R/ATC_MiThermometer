@@ -1493,7 +1493,7 @@ extern "C" {
 #define USE_SENSOR_INA226		0
 #endif
 #ifndef USE_SENSOR_INA3221
-#define USE_SENSOR_INA3221		0
+#define USE_SENSOR_INA3221		1
 #endif
 #ifndef USE_SENSOR_ENS160
 #define USE_SENSOR_ENS160		0
