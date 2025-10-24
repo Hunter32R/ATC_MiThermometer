@@ -87,7 +87,7 @@ endif
 
 # Add inputs and outputs from these tool invocations to the build variables 
 LST_FILE := $(OUT_PATH)/$(PROJECT_NAME).lst
-BIN_FILE := $(OUT_PATH)/../$(PROJECT_NAME).bin
+BIN_FILE := $(OUT_PATH)/$(PROJECT_NAME).bin
 ELF_FILE := $(OUT_PATH)/$(PROJECT_NAME).elf
 
 SIZEDUMMY := sizedummy
