@@ -38,7 +38,7 @@ jobs:
 
       - name: Build all firmwares
         run: |
-          make all
+          make -s -j PROJECT_NAME=TB03F%SWVER% POJECT_DEF="-DDEVICE_TYPE=DEVICE_TB03F"
       - name: List output files
         run: |
           find out zigbee_ota -type f -maxdepth 2 -printf "%P\n" || true
